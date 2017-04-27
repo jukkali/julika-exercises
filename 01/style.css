@@ -9,25 +9,51 @@ body {
 
 .big-header {
 	background-color: #e3e3e3;
-	height: 500px;
+	height: 300px;
 	width: 100%;
 	padding: 80px;
 }
 
+
+section.introduction p {
+	font-style: italic;
+	font-weight: 700;
+
+}
+
+section.introduction p span {
+
+	font-style: bold;
+	font-size: 20px;
+}
 section.introduction {
 	background-color: white;
 	height: 300px;
 	width: 100%;
 	padding: 20px;
+
 }
 
-section.introduction p {
-	font-style: italic;
-	font-weight: 700;
+/*
+	IDs are different from classes. Classes have a . before it, IDs have a # before it.
+*/
+
+#fancy-javascript { 
+
+	background: url("coffeemug.jpg") center center no-repeat;
+	height: 500px;
+
 }
 
 section.below {
-	background-color: #888;
-	color: white;
-	padding: 20px;
+	background-color: #234;
+	color: blue;
+	padding: 10px;
 }
+
+footer {
+	background: url("coffeemug.jpg") top left repeat;
+	height: 500px;
+
+}
+
